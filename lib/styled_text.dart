@@ -4,8 +4,13 @@ class StyledText extends StatelessWidget {
   String? text;
   final double fontSize;
   final Color color;
+  final FontWeight fontWeight;
   StyledText(
-      {this.text, required this.fontSize, required this.color, super.key});
+      {this.text,
+      required this.fontSize,
+      required this.color,
+      required this.fontWeight,
+      super.key});
 
   @override
   Widget build(context) {
@@ -14,6 +19,7 @@ class StyledText extends StatelessWidget {
       style: TextStyle(
         color: color,
         fontSize: fontSize,
+        fontWeight: fontWeight,
       ),
     );
   }
