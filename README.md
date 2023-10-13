@@ -1,10 +1,12 @@
-# first_app
+# Dice Roller App
 
-A new Flutter project.
+A new Flutter project. A simple Flutter application that simulates the rolling of dice.
+
+## Overview
+
+This Flutter app allows users to roll virtual dice with just a tap of a button. It's a fun and interactive way to make decisions, play board games, or use it in any scenario where you need a random outcome.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
